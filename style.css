@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* IMAGES RESPONSIVES */
+.img {
+    max-width: 75%;
+    margin-top: 50px;
+    border-radius: 300px;
+    border:10px solid darkturquoise;
+    
+}
+
+.web {
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+}
+
+/* ================= NAVIGATION ================= */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: darkturquoise;
+    padding-left: 30px;
+    align-items: center;
+    font-size: calc(0.5rem + 1.5vw);
+}
+
+
+
+#icons {
+    cursor: pointer;
+    display: none;
+    color: black;
+}
+
+.logo {
+     font-weight: 700;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.log {
+    font-size: 40px;
+    color: black;
+}
+.span1 {
+    color: darkturquoise;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+a:hover {
+    color: white;
+}
+
+/* ================= SECTION ACCUEIL ================= */
+
+.section1 {
+    background-color: #ffffff;
+    padding-bottom: 80px;
+}
+
+.big-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+}
+
+.box3 {
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.name {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.a1 {
+    color: black;
+    background-color: darkturquoise;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 13px;
+    box-shadow: -2px 2px 3px rgb(48, 61, 71);
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.a1:hover {
+    color: #fff;
+    background-color: black;
+}
+
+/* ================= A PROPOS ================= */
+
+.section2 {
+    background-color: rgb(236, 234, 234);
+    padding: 70px 0;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    color: darkturquoise;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    margin-top: 30px;
+    margin: 20px;
+    gap: 30px;
+}
+
+.nom {
+    color: darkturquoise;
+    font-size: 20px;
+}
+
+.a2 {
+    color: black;
+    background-color: darkturquoise;
+    border-radius: 8px;
+    padding: 10px 30px;
+    box-shadow: -2px 2px 3px rgb(48, 61, 71);
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.a2:hover {
+    color: #fff;
+    background-color: black;
+}
+
+/* ================= PROJETS ================= */
+
+.section3 {
+    padding: 70px 0;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.bos1, .bos2, .bos3 {
+    background-color: rgb(236, 234, 234);
+    padding: 40px;
+    box-shadow: -2px 2px 3px rgb(48, 61, 71);
+    border-radius: 10px;
+}
+
+.a3 {
+    display: inline-block;
+    color: black;
+    background-color: darkturquoise;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.a3:hover {
+    color: #fff;
+    background-color: black;
+}
+
+/* ================= COMPETENCES ================= */
+
+.section4 {
+    background-color: rgb(236, 234, 234);
+    padding: 70px 0;
+}
+
+.big-boxa {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 20px;
+}
+
+.boxa1, .boxa2 {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: -2px 2px 3px rgb(48, 61, 71);
+    border-radius: 10px;
+    width: 40%;
+}
+
+.progress {
+    height: 8px;
+    background-color: darkturquoise;
+    border-radius: 10px;
+}
+
+/* ================= CONTACT ================= */
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 70px 0;
+    color: #fff;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.ol {
+    color: darkturquoise;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: darkturquoise;
+    border: none;
+    margin-top: 10px;
+}
+
+/* ================= FOOTER ================= */
+
+.section6 {
+    padding: 10px;
+}
+
+.ball-box {
+    margin: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: small;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media screen and (max-width: 650px) {
+
+    #icons {
+        display: block;
+    }
+    #icons:before {
+        content: "\2630";
+        margin-right: 10px;
+    }
+
+    .active #icons:before {
+        content: "\2715";
+    }
+
+    nav ul {
+        position: fixed;
+        left: -100%;
+        top: 5%;
+        flex-direction: column;
+        color: #ffffff;
+        background: darkturquoise;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        transition: 0.25s;
+    }
+
+    nav li{
+        padding: 2px 0;
+    }
+
+    nav li:hover {
+        background: black;
+    }
+
+    nav.active ul {
+        left: 0;
+    }
+
+    .big-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bos1, .bos2, .bos3 {
+        width: 90%;
+    }
+
+    .big-boxa {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxa1, .boxa2 {
+        width: 90%;
+    }
+
+    .input {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
