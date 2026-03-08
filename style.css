@@ -766,7 +766,7 @@ label {
 
 .ol {
     color: darkturquoise;
-    font-size: 33px;
+    font-size: 25px;
 }
 
 button {
@@ -1150,9 +1150,6 @@ footer {
             z-index: 1;
         }
 
-        .ol {
-            font-size: 10px;
-        }
 
     .big-box {
         flex-direction: column;
@@ -1196,5 +1193,4 @@ footer {
         text-align: center;
         gap: 10px;
     }
-
 }
