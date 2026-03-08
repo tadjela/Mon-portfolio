@@ -1151,7 +1151,7 @@ footer {
         }
 
         .ol {
-            font-size: 16px;
+            font-size: 10px;
         }
 
     .big-box {
@@ -1196,4 +1196,5 @@ footer {
         text-align: center;
         gap: 10px;
     }
+
 }
