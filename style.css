@@ -1155,6 +1155,10 @@ footer {
         text-align: center;
     }
 
+    .ball-box {
+        margin: 30px;
+    }
+
     .container {
         flex-direction: column;
         text-align: center;
